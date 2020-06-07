@@ -117,6 +117,30 @@ a.brand:hover{
     background-color: rgba(1, 8, 0, 0.9);
     width: 99.8%;
 }
+.youtube {
+    border-radius: 51px 0px 51px 0px;
+    border: 3px solid rgba(255, 0, 0, 0.7);
+    background-color: rgba(238, 64, 64, 0.1);
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+.you {
+    padding:5px;
+    border-radius: 5px;
+    border: 1px solid rgba(255, 0, 0, 0.7);
+}
+.text-pretty1 {
+    font-weight: bold;
+    font-family: "Sofia";
+    color: rgb(253, 118, 8);
+    font-size: 45px;
+    padding-left: 10px;
+}
+.text-normal1 {
+    padding-left: 30px;
+    text-shadow: 0.5px 0.5px 2px black;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
 .cont {
     position: relative;
     text-align: center;
@@ -469,9 +493,16 @@ a.brand:hover{
         margin-right: auto;
     }
     .youtube {
-        border: 3.5px solid rgba(255, 0, 0, 0.7);
+        border-radius: 51px 0px 51px 0px;
+        border: 3px solid rgba(255, 0, 0, 0.7);
         background-color: rgba(238, 64, 64, 0.1);
         padding-bottom: 20px;
+        padding-top: 10px;
+    }
+    .you {
+        padding:5px;
+        border-radius: 5px;
+        border: 1px solid rgba(255, 0, 0, 0.7);
     }
     .containter {
         width: 100%;
