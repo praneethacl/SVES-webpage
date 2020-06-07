@@ -2,7 +2,6 @@
     margin: 0px;
     padding: 0px;
 }
-
 .header{
     background-color: #ecf7cb;
     padding-bottom: 0px;
@@ -105,6 +104,19 @@ a.brand:hover{
     font-style: initial;
     margin-bottom: 5px;
 }
+.corona_img{
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+    height: auto;
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+}
+.corona_img:hover {
+    background-color: rgba(1, 8, 0, 0.9);
+    width: 99.8%;
+}
 .cont {
     position: relative;
     text-align: center;
@@ -112,25 +124,7 @@ a.brand:hover{
     opacity: 1;
     text-shadow: 0.5px 0.5px 1px black;
 }
-.on_hover, .on_hover1 {
-    border: 2px solid #a4238f;
-    font-size: 35px;
-    font-weight: bolder;
-    padding-top: 200px;
-    position: absolute;
-    text-shadow: 0.5px 0.5px 1px black;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: rgba(253, 118, 8, 0.5);
-    color: rgb(253, 118, 8);
-    visibility: hidden;
-    opacity: 0;
-  
-    /* transition effect. not necessary */
-    transition: opacity .2s, visibility .2s;
-}
+
 .centered {
     font-family: "Sofia";
     color: rgb(0, 0, 0);
@@ -278,6 +272,31 @@ a.brand:hover{
     font-weight: bold;
     font-style: oblique;
 }
+.on_hover {
+    border: 2px solid rgba(174, 226, 18, 0.5);
+    font-size: 25px;
+    font-weight: bolder;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-bottom: 130px;
+    text-shadow: 1px 1px 2px rgba(85, 182, 85, 0.9);
+    background: rgba(236, 194, 160, 0.2);
+    color: rgb(219, 236, 219);
+    visibility: hidden;
+    opacity: 0;
+    width: 100%;
+    /* transition effect. not necessary */
+    transition: opacity .2s, visibility .2s;
+    font-style: italic;
+    font-family: cursive;
+}
+.cont:hover .on_hover{
+    visibility: visible;
+    opacity: 1;
+}
 .knowMoreCam{
     text-align: center;
     margin-top: 10px;
@@ -289,6 +308,32 @@ a.brand:hover{
     background-color: rgba(138, 43, 226, 0.7);
     font-size: 20px;
     color:white;
+}
+.g11, .g21, .g31, .g41{
+    position: relative;
+}
+.on_h{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(228, 226, 226, 0.2);
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    border: 0px solid rgb(226, 152, 61);
+    border-radius: 25px 0px 0px 25px;
+    font-size: 40px;
+    width: 100%;
+    font-weight: bold;
+    font-family: cursive;
+    padding-top: 10%;
+
+}
+.g11:hover .on_h, .g21:hover .on_h, .g31:hover .on_h, .g41:hover .on_h{
+    visibility: visible;
+    opacity: 1;
 }
 .fa {
     padding: 10px;
@@ -400,6 +445,34 @@ a.brand:hover{
         text-shadow: 0.5px 0.5px 2px black;
         font-family: Georgia, Times, 'Times New Roman', serif;
     }
+    .corona1{
+        padding-right: 0px;
+        margin: 0px;
+        border-bottom: 12px solid rgb(255, 255, 255);
+        padding-bottom: 10px;
+        background-color: rgb(211, 255, 205);
+    }
+    .corona_img{
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+        height: auto;
+        padding-left: 0px;
+        padding-top: 0px;
+        padding-right: 0px;
+    }
+    .corona_img:hover {
+        background-color: rgba(1, 8, 0, 0.9);
+        padding: 1% 1% 1% 1%; 
+        width: 99.8%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .youtube {
+        border: 3.5px solid rgba(255, 0, 0, 0.7);
+        background-color: rgba(238, 64, 64, 0.1);
+        padding-bottom: 20px;
+    }
     .containter {
         width: 100%;
         background-color: lightcoral;
@@ -408,16 +481,18 @@ a.brand:hover{
         color: black ;
     }
     .cllg-pic{
+        padding-top: 20px;
         visibility: visible;
-        width : 100%;
+        width : 122.55%;
         height: auto;
+        margin-left: -150px;
     }
     .centered {
         background-color: #f2fffc;
         text-shadow: 5px 5px #f2fffc;
         opacity: 0.6;
         border-radius: 20px;
-        padding: 5px;
+        padding: 15px;
         font-family: "Sofia";
         font-size: 25px;
         font-weight: bolder;
@@ -428,6 +503,34 @@ a.brand:hover{
         transform: translate(-50%, -50%);
     } 
 
+    .on_hover {
+        border: 2px solid rgba(241, 160, 93, 0.8);
+        font-size: 35px;
+        font-weight: bolder;
+        padding-top: 32%;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: rgba(241, 160, 93, 0.2);
+        color: rgb(59, 151, 59);
+        visibility: hidden;
+        opacity: 0;
+        width: 122.45%;
+        height: auto; 
+        margin-left: -150px;
+        /* transition effect. not necessary */
+        transition: opacity .2s, visibility .2s;
+        font-style: italic;
+        font-family: cursive;
+        padding-right:140px;
+        padding-bottom: 50px;
+    }
+    .cont:hover .on_hover{
+        visibility: visible;
+        opacity: 1;
+    }
     .chairman{
         color: white;
         margin: 20px;
@@ -436,13 +539,22 @@ a.brand:hover{
         background-image: url('chairman_bg.jpg'); 
     }
     .chairmanimg{
+
         width: 80%;
         position: center;
         border-radius: 50%;
     }
+    .about {
+        background-color: rgb(54, 53, 53);
+        color: #a7ce39;
+        margin: 20px;
+        padding : 10px;
+        border-radius: 15px;
+        padding-left: 10px;
+    }
     .text-normal{
-        padding-right: 0px;
-        padding-left: 50px;
+        padding-right: 5px;
+        padding-left: 5px;
         text-align: justify;
         font-size: 30px;
         font-weight: normal;
@@ -466,10 +578,10 @@ a.brand:hover{
         border-left: 0px;
         background-color: #ffdaba ;
     } 
-    .g22, .g42 {
+    .g22, .g42 , .g12, .g32{
         border-radius: 0px 25px 25px 0px ;
     }
-    .g11, .g41 {
+    .g11, .g41, .g31, .g21 {
         border-radius: 25px 0px 0px 25px ;
         
     }
@@ -483,7 +595,7 @@ a.brand:hover{
     .g32, .g42{
         border-top: 3px solid #a4238f;
         border-left: 0px;
-        background-color: #a4238f ;
+        background-color: rgb(164, 35, 143) ;
     } 
     .info{
         padding: 10px;
@@ -515,5 +627,31 @@ a.brand:hover{
         width: 100%;
         color: blanchedalmond;
         padding: 10px;
+    }
+    .g11, .g21, .g31, .g41{
+        position: relative;
+    }
+    .on_h{
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: rgba(228, 226, 226, 0.2);
+        color: #fff;
+        visibility: hidden;
+        opacity: 0;
+        border: 0px solid rgb(226, 152, 61);
+        border-radius: 25px 0px 0px 25px;
+        font-size: 40px;
+        width: 100%;
+        font-weight: bold;
+        font-family: cursive;
+        padding-top: 90px;
+
+    }
+    .g11:hover .on_h, .g21:hover .on_h, .g31:hover .on_h, .g41:hover .on_h{
+        visibility: visible;
+        opacity: 1;
     }
 }
